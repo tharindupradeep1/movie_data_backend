@@ -53,7 +53,7 @@ cd movie_data_backend
 docker-compose up
 ```
 ## Authentication
-Movie Data Backend uses token-based authentication with JWT. However, there are no dedicated authentication endpoints (e.g., login, signup) in this API. Instead, users need to obtain a JWT token from a third-party authentication service with the defined JWT_SECRET in the .env file in the app and include it in the Authorization header of their requests.
+Movie Data Backend uses token-based authentication with JWT. However, there are no dedicated authentication endpoints (e.g., login, signup) implemented. Instead, users need to obtain a JWT token from a third-party authentication service with the defined JWT_SECRET in the .env file in the app and include it in the Authorization header of their requests.
 
 ```http
 Authorization: Bearer your_generated_token

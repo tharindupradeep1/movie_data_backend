@@ -35,7 +35,7 @@ Movie Data Backend API provides a simple interface to retrieve and manage movie 
  
 1. Clone the repository:
   ```bash
-  git clone
+  git clone https://github.com/tharindupradeep1/movie_data_backend.git
  ```
 2. Cofigurations
 Setup the configurations in .env file

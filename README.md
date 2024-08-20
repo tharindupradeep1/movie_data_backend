@@ -149,11 +149,20 @@ Sample Response
 ```json
 {
     "title": "Test",
-    "overview": "A young, dark-haired woman performs a dance inspired by George du Maurier's character Trilby, in an early modern dance style reminiscent of Isadora Duncan. She dances barefoot without stockings and is dressed in a long, flowing gown bound across the bosom in Grecian style, with inside fringe and a draped cape hooked to her wrist. She also wears what appears to be a garland headpiece. Holding her gown with one hand throughout, the dancer performs a series of kicks and turns with leg kicks front and back, rocking, and round de jambe.",
-    "releaseDate": "1898-01-01",
-    "runtime": 1,
-    "voteAverage": 4,
-    "genres": [],
+    "overview": "Test overview",
+    "releaseDate": "",
+    "runtime": 2,
+    "voteAverage": 10,
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 27,
+            "name": "Horror"
+        }
+    ],
     "id": "da56fe0d-8b75-4e8b-8665-c64d4a7822c7"
 }
 ```
